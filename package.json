@@ -1,0 +1,32 @@
+{
+  "name": "pi_game",
+  "version": "1.0.0",
+  "description": "a game store in pi server",
+  "main": "client.ts",
+  "scripts": {
+    "dev": "webpack serve --config ./src/client/webpack.dev.js",
+    "build": "webpack --mode production --config ./src/client/webpack.common.js"
+  },
+  "keywords": [
+    "pi",
+    "game",
+    "threejs"
+  ],
+  "author": "pecdel (huanyuMark)",
+  "license": "ISC",
+  "dependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "three": "^0.151.3"
+  },
+  "devDependencies": {
+    "@types/three": "^0.150.1",
+    "css-loader": "^6.7.3",
+    "style-loader": "^3.3.2",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.3",
+    "webpack": "^5.78.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.2",
+    "webpack-merge": "^5.8.0"
+  }
+}
